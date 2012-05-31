@@ -1,0 +1,27 @@
+{
+  "author": "Quildreen Motta <quildreen@gmail.com> (http://killdream.github.com)",
+  "name": "expose",
+  "description": "A tiny modular server on top of Express/Node.",
+  "version": "0.1.0",
+  "homepage": "http://killdream.github.com/expose",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/killdream/expose.git"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "~0.6.18"
+  },
+  "dependencies": { "express": "~2.5.9"
+                  , "express-namespace": "~0.1.0"
+                  , "glob": "~3.1.9"
+                  , "khaos": "~0.1.2"
+                  , "boo": "~1.2.0" },
+  "devDependencies": { "mocha": "*"
+                     , "noire": "*"
+                     , "sinon": "*"
+                     , "browserify": "*" }
+}
