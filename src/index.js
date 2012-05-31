@@ -27,7 +27,6 @@
 var express = require('express')
 var path    = require('path')
 var fs      = require('fs')
-var path    = require('path')
 var glob    = require('glob')
 var map     = require('khaos/src/collection/map')
 var string  = require('khaos/src/collection/string')
